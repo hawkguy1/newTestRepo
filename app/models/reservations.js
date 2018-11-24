@@ -14,7 +14,7 @@ var Reservations = sequelize.define("reservations", {
 });
 
 // Syncs with DB
-Chirp.sync();
+Reservations.sync();
 
 // Makes the Chirp Model available for other files (will also create a table)
 module.exports = Chirp;
